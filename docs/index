@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+        <title>JAMH</title>
+        <meta name="description" content="The description should optimally be between 150-160 characters.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="JAMH">
+
+        <!-- ================= Favicon ================== -->
+        <!-- Standard -->
+        <link rel="shortcut icon" href="img/strawberry.png">
+        <!-- ============== Resources style ============== -->
+        <link rel="stylesheet" href="css/style.css" />
+
+		<!-- Modernizr runs quickly on page load to detect features -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	
+	<body>
+
+		<!-- Page preloader -->
+		<div id="loading">
+			<div id="preloader">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+		<!-- *** Liquid effect *** -->
+		<div class="wrap">
+			<canvas id="liquid"></canvas>
+		</div>
+
+		<!-- Overlay and Star effect -->
+		<div class="global-overlay">
+			<div class="overlay skew-part">
+
+				<div id='stars'></div>
+				<div id='stars2'></div>
+				<div id='stars3'></div>
+
+			</div>
+		</div>
+
+		<!-- START - Home/Left Part -->
+		<section id="left-side">
+
+			<!-- Your logo -->
+			<img src="img/logo.svg" alt="" class="brand-logo" />
+
+			<div class="content">
+
+				<h1 class="text-intro opacity-0">Don't Worry!<br>
+					JAMH Will Be Back Soon</h1>
+					Our team is not gone yet. We are working under a new product line and brand. We will be announcing more info soon.
+				<h2 class="text-intro opacity-0"></h2>
+
+				<nav>
+					<ul>
+						<li>
+							<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">Learn More</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<!-- Social icons -->
+			<div class="social-icons">
+				
+				<a href="https://www.linkedin.com/company/jamh"><i class="fab fa-linkedin"></i></a>
+				<a href="https://twitter.com/jamh_ai"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.instagram.com/jamh.ai"><i class="fab fa-instagram"></i></a>
+
+			</div>
+
+		</section>
+		<!-- END - Home/Left Part -->
+
+		<!-- START - More Informations/Right Part -->
+		<section id="right-side" class="hide-right">
+
+			<div class="content">
+
+				<h3>New Products, New Brand, Same JAMH</h3>
+
+				<p>The JAMH team is currently hard at work under a new brand developing exciting and
+					meaningful products. Our team is still dedicated to sustainability through innovation, 
+					focusing on technologies in sustainability information management, carbon markets, and IoT. 
+					We are excited to announce our work later this year!</p>
+
+
+				
+				<span class="separator"></span>
+
+				<h3>Looking to connect? Reach Out!</h3>
+				
+				<p>Do you need to connect with the team at JAMH? Is there a project you were looking to 
+					collaborate on? Would you like our secret jam recipe? Reach out to the team with the 
+					email below! Our team is still active and will get back to you as soon as possible.</p> <br>
+
+
+				<div class="info-contact row">
+
+                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
+                        <div class="contact-item"><i class="icon ion-ios-email"></i>
+                            <p><a href="mailto:info@jamh.ai">info@jamh.ai</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-lg-4 item-map">
+                        <div class="contact-item"></i>
+                            <p></p>
+                        </div>
+                    </div>
+
+					<div class="col-xs-12 col-sm-4 col-lg-4 item-map">
+                        <div class="contact-item"><i class="icon ion-ios-location"></i>
+                            <p>Calgary, AB
+                                <br>Canada</p>
+                        </div>
+                    </div>
+
+                </div>
+
+			</div>
+			<!-- /. Content -->
+
+			<footer>
+
+				<p>© JAMH 2022</p>
+
+			</footer>
+
+		</section>
+		<!-- START - More Informations/Right Part -->
+
+		<!-- Button Cross to close the More Informations/Right Part -->
+		<button id="close-more-info" class="hide-close"><i class="fas fa-times"></i></button>
+
+		
+	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+	
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Accelerated JavaScript animation JS file -->
+	<script src="js/velocity.min.js"></script> 
+
+	<!-- Accelerated JavaScript animation UI JS file -->
+	<script src="js/velocity.ui.min.js"></script>  
+
+	<!-- Liquid effect plugin -->
+	<script src="js/liquid.js"></script>
+
+	<!-- Scroll plugin -->
+	<script src="js/jquery.mousewheel.js"></script>
+
+	<!-- Custom Scrollbar plugin -->
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+
+	<!-- Main JS File -->
+	<script src="js/main.js"></script>
+	
+	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+	</body>
+
+</html>

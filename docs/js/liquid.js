@@ -257,7 +257,7 @@
       ctx = screen.ctx;
   screen.resize();
   // create LavaLamps
-  lava0 = new LavaLamp(screen.width, screen.height, 4, "#F2798F", "#F2798F");
+  lava0 = new LavaLamp(screen.width, screen.height, 4, "#F2798F", "#F2C84B");
 
   run();
 
